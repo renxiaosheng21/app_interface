@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>表单验证</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form action="init.php" method="post"  class="form-horizontal" role="form">
+
+    <div class="form-group">
+        <label for="app_id" class="col-sm-2 control-label">app_id</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name = "app_id" id="app_id"  placeholder="请输入app_id">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="version_id" class="col-sm-2 control-label">大版本号</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="version_id" id="version_id"
+                   placeholder="请输入version_id">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="version_mini" class="col-sm-2 control-label">小版本号</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name = "version_mini" id="version_mini"
+                   placeholder="请输入version_mini">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="did" class="col-sm-2 control-label">did</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name = "did" id="did"
+                   placeholder="请输入version_id">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="encrypt_did" class="col-sm-2 control-label">encrypt_did</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="encrypt_did" id="encrypt_did"
+                   placeholder="请输入encrypt_did">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">提交</button>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
